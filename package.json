@@ -1,0 +1,19 @@
+{
+  "name": "webshit",
+  "version": "0.1.0",
+  "description": "Shit for Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyrahgames/webshit.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/lyrahgames/webshit/issues"
+  },
+  "homepage": "https://github.com/lyrahgames/webshit#readme"
+}
