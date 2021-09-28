@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lyrahgames/webshit/issues"
   },
-  "homepage": "https://github.com/lyrahgames/webshit#readme"
+  "homepage": "https://github.com/lyrahgames/webshit#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

@@ -1,10 +1,12 @@
 *
 !*/
+node_modules/
 
 !*.html
 !*.css
 !*.js
 !*.json
+package-lock.json
 
 !*.md
 
