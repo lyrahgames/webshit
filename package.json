@@ -2,15 +2,21 @@
   "name": "webshit",
   "version": "0.1.0",
   "description": "Shit for Web",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "serve": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lyrahgames/webshit.git"
+  "repository": "github:lyrahgames/webshit",
+  "author": {
+    "name": "lyrahgames",
+    "email": "lyrahgames@mailbox.org",
+    "url": "https://home.lyrahgames.org"
   },
-  "author": "",
+  "contributors": [
+    "lyrahgames <lyrahgames@mailbox.org> (https://home.lyrahgames.org)",
+    "b3n3m <benem@web.de>"
+  ],
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/lyrahgames/webshit/issues"
@@ -18,5 +24,8 @@
   "homepage": "https://github.com/lyrahgames/webshit#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
