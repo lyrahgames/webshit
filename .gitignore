@@ -9,4 +9,8 @@ node_modules/
 
 !*.md
 
+!Dockerfile
+!.dockerignore
+!docker-compose.yml
+
 !.git*

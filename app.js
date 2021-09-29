@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 
 const project = require('./package.json');
@@ -10,6 +10,10 @@ console.log(`contributors = ${project.contributors}`);
 
 app.get('/', (req, res) => {
   res.send('Hello, World!');
+});
+
+app.get('/docker', (req, res) => {
+  res.send('Hello, Docker World!');
 });
 
 const server = app.listen(port, () => {
