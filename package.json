@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "serve": "nodemon app.js"
+    "serve": "nodemon app.js",
+    "websocket": "nodemon server.js"
   },
   "repository": "github:lyrahgames/webshit",
   "author": {
